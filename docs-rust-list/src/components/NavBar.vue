@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="logo">
-      <img alt="Vue logo" class="logo-image" src="@/assets/Rust 1.svg" width="50" height="50" />
+      <img alt="Vue logo" class="logo-image" src="@/assets/Rust.svg" width="50" height="50" />
     </div>
     <div class="links">
       <router-link to="/" class="nav-link">Home</router-link>
