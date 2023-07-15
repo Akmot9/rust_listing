@@ -7,10 +7,6 @@
       <router-link to="/" class="nav-link">Home</router-link>
       <router-link to="/intro" class="nav-link">Intro</router-link>
     </div>
-    <div class="toggle-button" @click="toggleSidebar">
-      <span v-if="showSidebar">Hide Sidebar</span>
-      <span v-else>Show Sidebar</span>
-    </div>
     <div class="github-link">
       <a href="https://github.com/Akmot9" class="github-link-text">GitHub</a>
     </div>
@@ -18,18 +14,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      showSidebar: true
-    };
-  },
-  methods: {
-    toggleSidebar() {
-      this.showSidebar = !this.showSidebar;
-    }
-  }
-};
+
 </script>
 
 <style scoped>
@@ -39,7 +24,8 @@ export default {
   align-items: center;
   padding: 10px;
   background-color: #2b2b2b;
-  color: #ffffff;
+  border-inline-width: 1px;
+  border-color: #ffffff;
 }
 
 .logo {
@@ -65,6 +51,7 @@ export default {
   text-decoration: none;
   color: #e95420;
   font-size: 16px;
+  font: large;
 }
 
 .toggle-button {

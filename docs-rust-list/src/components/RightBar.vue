@@ -10,14 +10,13 @@
         </ul>
       </div>
     </div>
-  </template>
-  
-  
+</template>
+
 <style scoped>
 .sidebar {
 position: fixed;
 top: 0;
-left: 0;
+right: 0; /* Adjusted to align the sidebar to the right */
 bottom: 0;
 width: 200px;
 padding: 20px;
@@ -27,7 +26,7 @@ transition: transform 0.3s ease-in-out;
 }
 
 .sidebar-hidden {
-transform: translateX(-200px);
+transform: translateX(200px); /* Changed to positive value to hide the sidebar to the right */
 }
 
 .sidebar-content {
@@ -59,3 +58,4 @@ text-decoration: none;
 text-decoration: underline;
 }
 </style>
+  

@@ -51,26 +51,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  overflow: hidden;
-  animation: pulsate 1.5s ease-in-out infinite;
-  transition: background-color 0.3s ease-in-out;
 }
 
 .cta-button:hover {
   background-color: #c43c00;
-}
-
-@keyframes pulsate {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 </style>

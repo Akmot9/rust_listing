@@ -2,11 +2,13 @@
   <div class="bg">
     <header class="navbar">
       <NavBar />
+      <RightBar />
+      <Sidebar />
     </header>
 
     <main class="main-content">
       <div class="sidebar-wrapper">
-        <Sidebar />
+        
       </div>
 
       <div class="content-wrapper">
@@ -20,6 +22,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 import Sidebar from './components/Sidebar.vue'
+import RightBar from './components/RightBar.vue';
 </script>
 
 <style scoped>
@@ -43,6 +46,7 @@ import Sidebar from './components/Sidebar.vue'
 .content-wrapper {
   flex: 1; /* Expand the content wrapper to fill the remaining width */
   padding: 20px;
+  background-color:black;
 }
 
 .navbar {
