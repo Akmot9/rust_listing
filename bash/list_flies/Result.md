@@ -7,10 +7,10 @@ find /
 ### Numbers of files and errors
 ```
 ╰─$ cat list_files.txt | wc -l
-5463471
+4657952
 
 ╰─$ cat list_files.log | wc -l
-3905
+3536
 ```
 ### Speed
 Execution time: 10.583639236 seconds
